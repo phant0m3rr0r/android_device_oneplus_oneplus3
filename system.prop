@@ -31,7 +31,8 @@ bt.max.hfpclient.connections=1
 qcom.bluetooth.soc=rome
 
 # Camera
-camera.hal1.packagelist=com.skype.raider,com.whatsapp,com.tencent.mm
+camera.disable_zsl_mode=1
+camera.hal1.packagelist=com.skype.raider,com.whatsapp,com.tencent.mm,com.google.android.GoogleCamera
 
 # Display power reduction (FOSS)
 ro.qcom.dpps.sensortype=3
